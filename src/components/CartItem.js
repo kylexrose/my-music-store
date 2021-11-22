@@ -2,6 +2,8 @@ import { Card, CardMedia, IconButton, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import { useShoppingCart } from '../context/shoppingCartContext';
+import {useSelector} from 'react-redux';
+import {combineReducers} from 'redux';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
 const CartItem = (props) => {

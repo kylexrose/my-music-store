@@ -4,7 +4,8 @@ import { useShoppingCart } from '../context/shoppingCartContext';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { editFavorites } from '../fetchData';
 import { useDispatch, useSelector } from 'react-redux';
-import { updateUserFavoritesActionCreator } from '../redux';
+import { updateUserFavoritesActionCreator } from '../redux/userReducer'
+<div className=""></div>
 
 const ProductCard = (props) => {
   const {product} = props;
